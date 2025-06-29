@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch=".." />
+  <remote name="github" fetch="https://github.com" />
+
+  <default remote="origin" revision="main" sync-j="4" />
+
+  <project path="configs" name="lora4linux/bsp" >
+    <copyfile src="openbar.mk" dest="Makefile" />
+  </project>
+
+  <project path="platform/openbar" remote="github" name="openbar/openbar" />
+  <project path="platform/poky" remote="github" revision="walnascar" name="yoctoproject/poky" />
+</manifest>
