@@ -11,4 +11,6 @@
 
   <project path="platform/openbar" remote="github" name="openbar/openbar" />
   <project path="platform/poky" remote="github" revision="walnascar" name="yoctoproject/poky" />
+
+  <project path="platform/meta-lora4linux" name="lora4linux/meta-lora4linux" />
 </manifest>
